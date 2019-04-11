@@ -1,0 +1,13 @@
+## Twilio Configurations ##
+
+# your twilio account sid
+TWILIO_ACCOUNT_SID='XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+
+# your twilio auth token
+TWILIO_AUTH_TOKEN='XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+
+# your twilio phone number (xxx-xxx-xxxx)
+TWILIO_FROM_PHONE_NUMBER='555-555-5555'
+
+# the phone number to send the alert to (xxx-xxx-xxxx)
+PHONE_NUMBER_TO_ALERT='000-111-2222'

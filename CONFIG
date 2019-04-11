@@ -1,0 +1,16 @@
+## Configurations ##
+
+# minimum download speed (mbps) you think you should have (default: 400 mbps)
+MIN_DOWNLOAD_SPEED=400
+
+# minimum upload speed (mbps) you think you should have (default: 10 mbps)
+MIN_UPLOAD_SPEED=10
+
+# if minimum criteria is not met, how long to wait until we retry, prior to alerting (default: 15min)
+MINUTES_TO_ALLOW_FOR_FIX=15
+
+# how often to check speed (default: every 30min)
+MINUTES_CHECK_INTERVAL=30
+
+# whether to send text alert or not. If set to true, make sure to fill out the twilio configurations inside /lib/failure-actions/text-alert/TWILIO_CONFIG
+SEND_TEXT_ALERT=false
